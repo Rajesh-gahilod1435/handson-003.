@@ -1,0 +1,112 @@
+
+.pagecontenair{
+    background-color: grey;
+}
+.fristdiv{
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 360px;
+    width: 350px;
+    height: 150px;
+    color: brown;
+    background-color: #ffff;
+    border: 3px solid red;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.sticydiv{
+z-index: 10;
+    width: 350px;
+    height: 50px;
+    position: fixed;
+    top: 200px;
+    left: 365px;
+    color: brown;
+    background-color: #ffff;
+    border: 4px solid red;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-style: italic;
+    background-color: greenyellow;
+    box-shadow: rgb(51, 44, 44) 3px 3px 3px 3px;
+
+}
+.sticychaild1{
+    position: relative;
+    bottom: 15px;
+}
+.sticychaild2{
+    position: relative;
+    top: 8px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    flex-wrap: wrap;
+    border: 4px solid green;
+
+}
+.chaild{
+    width: 300px;
+    height: 200px;
+    background-color: #ffff;
+    gap: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgb(51, 44, 44) 3px 3px 3px 3px;
+    text-align: center;
+    text-shadow: red 2px 2px 2px;
+
+}
+.chaild img{
+    padding: 10px;
+    width: 280px;
+}
+
+.submitbtn{
+    background-color: red;
+    border-radius: 20px;
+}
+
+.lastcontenair{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 4px solid blueviolet;
+    width: 650px;
+    height: 600px;
+    /* gap: 2px; */
+    background-color: green;
+    text-align: center;
+    line-height: 30px;
+}
+.lastheading{
+    width: 600px;
+    height: 0px;
+
+}
+
+.box{
+    width: 320px;
+    background-color: burlywood;
+    margin-bottom: 8px;
+
+    
+}
+.div3{
+    width: 655px;
+    /* overflow: visible; */
+    line-height: 30px;
+    position: relative;
+    left: 5px;
+    top: 0;
+}
+
